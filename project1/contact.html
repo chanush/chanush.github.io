@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/600x600_c5af9dae-638d-4d21-aa3c-5eb5de7cb8b1 (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css" type="text/css">
+    
+    <title>cakeWebSite</title>
+</head>
+<body>
+    <header>
+        <img src="image/600x600_c5af9dae-638d-4d21-aa3c-5eb5de7cb8b1 (2).png" width:5vw>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">בית</a>
+            </li>
+            <li>
+                <a href="about.html">אודות</a>
+            </li>
+            <li>
+                <a href="OurCakes.html">העוגות שלנו...</a>
+            </li>
+            <li>
+                <a href="blog.html">בלוג</a>
+            </li>
+            <li>
+                <a href="contact.html">צרו קשר</a>
+            </li>
+   </nav>
+   <main>
+       <div id="form">
+            <form action="add.html" method="get" class="Cake order-form">
+              <br> <br>
+        <div class="Cake-order-form">
+          <label for="name" >הכנס שם: </label>
+          <br> <br>
+          <input type="text" name="name" id="name" required>
+          
+        </div>
+        <div class="Cake-order-form">
+          <label for="email">הכנס כתובת אימייל: </label>
+          <br><br>
+          <input type="email" name="email" id="email" required>
+          <br> <br>
+        </div>
+        <fieldset>
+          <legend> האם תירצו לקבל מאיתנו הודעות באימייל?</legend>
+          
+      
+          <input type="radio" id="jerusalem" name="place">
+        
+          <label for="jerusalem">להצטרפות</label>
+      
+          <input type="radio" id="telaviv" name="place">
+          <label for="telaviv">ליציאה מרשימת התפוצה</label>
+        </fieldset>
+        <div class="Cake-order-form" >
+              <label for="ezur">הקלד קוד איזור: </label>
+              <input type="text" name="ezur" id="ezur" required>
+            </div>
+            </div>
+            <form action="" method="get" class="Cake order-form">
+                <div class="Cake-order-form">
+                  <label for="name">הכנס כתובת מגורים: </label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+        
+
+      <details open>
+    <summary>ציינו את האיזור בו אתם גרים:</summary> 
+    <div class="space">
+    <input type="text" name="else" id="else" required>
+  </div>
+</details>
+ 
+
+
+
+<br>
+<form method="post" action="add.html" novalidate>
+  <input type="submit" value="להזמנה!!" id="order" >
+</form><br>
+<p id="howmuch" >עד כמה אהבתם את האתר שלנו?</p>
+<div id="range">
+  <input type="range" id="love" name="love"
+         min="0" max="11">
+  <label for="love">אנו מקוות שנהניתן!!</label>
+</div> 
+<p class=find >תמצאו אותנו!!</p>
+<iframe id=maps  
+       src="https://www.openstreetmap.org/export/embed.html?bbox=34.87901687622071%2C32.260463021456225%2C34.93566513061524%2C32.29362649350615&amp;layer=mapnik">
+      </iframe>
+      <br/>
+   <br/>
+
+ 
+
+   <details  open class="sum">
+    <summary>לפרטים:</summary>
+   
+     <div class="space" >
+        <p >טל': 03-6576596<br><br>כתובתינו: רחוב הכלנית 2, ביישוב קדימה</p>
+      </div>
+    <p class="sum" >זמן ההגעה של ההזמנה הוא עד חודש ימי עבודה.</p>
+  
+  </details>
+<br>
+      <button class="favorites"
+           type="button">
+       Add to favorites
+    </button>
+    <br>
+    <br/>
+    <br/>
+
+      </form>
+       </div>      
+      </main>
+
+      <br>
+      <br>
+    <footer>
+        <div>
+              <h1> built by Miri Alfa and Chany Marzel © </h1>
+        </div>
+     </footer>
+ 
+  
+</body>
