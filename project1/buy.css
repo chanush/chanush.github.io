@@ -122,17 +122,17 @@ iframe{
     position: relative;
 }
 
-/* .SortOfCake:hover{
+.SortOfCake:hover{
    animation: SortOfCake 5s ease-out  infinite alternate;
-} */
+}
 
-/* @keyframes  SortOfCake {
+@keyframes  SortOfCake {
     0%   {font-size:100%;}
     25%  {font-size:135%;}
     50%  {font-size:100%;}
     75%  {font-size:135%;}
     100% { font-size:100%;}
-} */
+}
 
 footer{
     margin-top: -40px;
