@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css.css/sighn_in_and_log_in_page.css">
+    <link rel="stylesheet" href="../css.css/user_page.css">
+    <link rel="stylesheet" href="../css.css/signin.css">
+    <link rel="stylesheet" href="../css.css/login.css">
+    <link rel="stylesheet" href="../css.css/modal.css">
+    <link rel="stylesheet" href="../css.css/list_page.css">
+    <link rel="pdf" href="../pdf/choclate.pdf">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../css.css/sign_out_page.css">
+    <link rel="stylesheet" href="../css.css/user_page.css"> -->
+    <title>Document</title>
+</head>
+
+<body style="background-image: url(../pictures/bride7.jpg);">
+    <div class="container">
+        <div class="page" id="signin">
+
+            <div class="calendar">
+                <div class="front">
+                    <div class="current-date">
+                        <h1 style="border-bottom: 4px double white; font-size: 25px;
+                        margin-left: 207px;">!! לוח ספירת הגומר</h1>
+                    </div>
+
+                    <div class="current-month">
+                        <ul class="week-days">
+                            <li>ראשון</li>
+                            <li>שני</li>
+                            <li>שלישי</li>
+                            <li>רביעי</li>
+                            <li>חמישי</li>
+                            <li>שישי</li>
+                            <li>שבת</li>
+                        </ul>
+
+                        <div class="weeks">
+                            <div class="first">
+                                <a class="span" id="31" onclick="span('2024-1-14')">ד</a>
+                                <a class="span" id="30" onclick="span('2024-1-15')">ה</a>
+                                <a class="span" id="29" onclick="span('2024-1-16')">ו</a>
+                                <a class="span" id="28" onclick="span('2024-1-17')">ז</a>
+                                <a class="span" id="27" onclick="span('2024-1-18')">ח</a>
+                                <a class="span" id="26" onclick="span('2024-1-19')">ט</a>
+                                <a class="span" id="25" onclick="span('2024-1-20')">י</a>
+                            </div>
+
+                            <div class="second">
+                                <a class="span" id="24" onclick="span('2024-1-21')">יא</a>
+                                <a class="span" id="23" onclick="span('2024-1-22')">יב</a>
+                                <a class="span" id="22" onclick="span('2024-1-23')">יג</a>
+                                <a class="span" id="21" onclick="span('2024-1-24')">יד</a>
+                                <a class="span" id="20" onclick="span('2024-1-25')">טו</a>
+                                <a class="span" id="19" onclick="span('2024-1-26')">טז</a>
+                                <a class="span" id="18" onclick="span('2024-1-27')">יז</a>
+                            </div>
+
+                            <div class="third">
+                                <a class="span" id="17" onclick="span('2024-1-28')">יח</a>
+                                <a class="span" id="16" onclick="span('2024-1-29')">יט</a>
+                                <a class="span" id="15" onclick="span('2024-1-30')">כ</a>
+                                <a class="span" id="14" onclick="span('2024-1-31')">כא</a>
+                                <a class="span" id="13" onclick="span('2024-2-1')">כב</a>
+                                <a class="span" id="12" onclick="span('2024-2-2')">כג</a>
+                                <a class="span" id="11" onclick="span('2024-2-3')">כד</a>
+                            </div>
+
+                            <div class="fourth">
+                                <a class="span" id="10" onclick="span('2024-2-4')">כה</a>
+                                <a class="span" id="9" onclick="span('2024-2-5')">כו</a>
+                                <a class="span" id="8" onclick="span('2024-2-6')">כז</a>
+                                <a class="span" id="7" onclick="span('2024-2-7')">כח</a>
+                                <a class="span" id="6" onclick="span('2024-2-8')">כט</a>
+                                <a class="span" id="5" onclick="span('2024-2-9')">ל</a>
+                                <a class="span" id="4" onclick="span('2024-2-10')">א</a>
+                            </div>
+
+                            <div class="fifth">
+                                <a class="span" id="3" onclick="span('2024-2-11')">ב</a>
+                                <a class="span" id="2" onclick="span('2024-2-12')">ג</a>
+                                <a class="span" id="1" onclick="span('2024-2-13')">ד</a>
+                                <div class="diva">
+                                    <a style="padding-right: 19px;
+                                /* border-radius: 90%; */
+                                margin-bottom: 17px;
+                                /* width: 29px; */
+                                " class="activeted span" onclick="span('2024-2-14')">
+                                        <strong>ה</strong></a>
+                                </div>
+                                <a class="last-month " aria-disabled="true">ו</a>
+                                <a class="last-month ">ז</a>
+                                <a class="last-month ">ח</a>
+                                <!-- <button></button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <input href="#" type="button" data-target="lognin" class="nav-link" id="log_in_btn" value="log in">
+        <h1>sign in:</h1>
+        <form class="divs">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="susername" name="username">
+            </div>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="passs" name="password" minlength="8" required>
+            </div>
+            <label for="email">email:</label>
+            <input type="email" id="gemail" pattern=".+@gmail\.com" size="30" required>
+            <input type="submit"  href="#"data-target="list_page" id="submit_sign_in" value="Sign in">
+
+        </form> -->
+
+    <div class="container">
+
+        <div class="page" id="lognin">
+            <h1 class="backCounting" onclick="toCalendar()">
+                << חזרה לספירה</h1>
+                    <br>
+                    <br>
+
+                    <!-- <button class="prev" onclick="congratulations_onclick()"><</button> -->
+                    <div id="pdf_video">
+                        <!-- <img src="../pdf/אביגיל.png" class="relative" width="600" height="400" name="0"> -->
+                    </div>
+                    <!-- <button class="next" onclick="congratulations_onclick()">></button> -->
+
+                    <!-- <video src="../pdf/רינה.pdf" controls="" class="" name="1"></video> -->
+
+                    <!-- <iframe src="../pdf/לחברה הכי הכי שלי!!.pdf" width="100%" height="500" frameborder="0"></iframe> -->
+                    <!-- <video src="../videos/Document - Google Chrome 2024-01-07 19-42-39.mp4" controls="" style="width: 70%;
+                    height: 90%;"></video> -->
+        </div>
+    </div>
+    <div class="page active" id="list_page">
+        <i id="myinfiicon" class="infoicon fa fa-info-circle " onclick="infoOnClick()"></i>
+
+        <div class="lst_pagediv">
+            <h1 style="font-size: 45px;">(:לוח ספירת הגומר-בואי לספור</h1>
+            <h3 style="font-size: 30px;">!כולנו יחד-מחכים וסופרים איתך</h3>
+            <p style="font-size: 13px;">חובה לקרוא את ההוראות לפני כן</p>
+        </div>
+
+        <input type="button" class="letsCount" value="!בואי לספור" onclick="sign_out()">
+
+    </div>
+
+    <div id="signout_page">
+    </div>
+    <!--cannot open date-->
+    <div class="modal" id="myModal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="mydive">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="datemodal" id="dateus">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="closedate" onclick="">&times;</span>
+            <div id="mydate">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="datemodal" id="infomodal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="closeinfo">&times;</span>
+            <div id="myinfo">
+
+            </div>
+
+        </div>
+    </div>
+    <script src="../html/onepage.html"></script>
+    <script src="../javascript/client_and_history.js"></script>
+    <script src="../javascript/database.js"></script>
+    <script src="../javascript/FXmlHttpRequest.js"></script>
+    <script src="../javascript/network.js"></script>
+    <script src="../javascript/server.js"></script>
+    <script src="../javascript/client.js"></script>
+    <script src="../javascript/list.js"></script>
+
+
+
+
+</body>
+
+</html>
