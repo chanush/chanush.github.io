@@ -12,7 +12,7 @@ function password() {
     let element = document.getElementById("password")
 
     if (window.PASS == element.value) {
-        window.location.assign('https://chanush.github.io/week4/html/onepage.html#signin');
+        window.location.assign('../html/onepage.html');
     } else {
 
     }

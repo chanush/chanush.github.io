@@ -126,7 +126,7 @@ function date_has_not_passed(today,pressed_date){
     if(diference_between_two_dates(pressed_date,wedding_day)<=0){
         inethtml = `
         <div>
-        <h1>${wedding_day_list[Math.floor(Math.random() * 39)%7]}</h1>    
+        <h1>${wedding_day_list[Math.floor(Math.random() * 54)%7]}</h1>    
         </div>`
     }
     else{
@@ -137,7 +137,7 @@ function date_has_not_passed(today,pressed_date){
         </div>`
     }
    else{
-    let random_number=Math.floor(Math.random() * 30)%10;
+    let random_number=Math.floor(Math.random() * 56)%11;
 
     random_number=random_number==2?random_number+1:random_number
     console.log('num: '+random_number)

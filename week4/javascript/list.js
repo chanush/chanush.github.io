@@ -18,13 +18,14 @@ let not_the_time_yet = [
 !!!<br><br><br><br>\
 לאאאאא<br>\
 ...אל תדאגי החתונה לא עוד מאה יום",
-    "?'אז מה התכונה הכי בולטת בדבורה'\
-       ?'הסבלנות האין סופית שלה, הנכונות התמידית לעזור או העובדה שהיא תמיד מחייכת'\
-       🤣😂🙃...תשובה:'טובת סבלנות אין לה.תראה, עוד פעם היא ניסתה לפתוח אותי'\
+    "?אז מה התכונה הכי בולטת בדבורה'<br>\
+       '?הסבלנות האין סופית שלה, הנכונות התמידית לעזור או העובדה שהיא תמיד מחייכת<br>\
+      ' 🤣😂🙃...תשובה:'טוב, סבלנות אין לה...תראה, עוד פעם היא ניסתה לפתוח אותי\
        ",
     "😉🥳...נו....כבר למדת לאהוב הפתעות? כי יש כאן עוד אחת",
     "'??למה כל פעם יש כאן משפט אחר'",
-    "😠...עד שאמרנו עלייך בשידוכים שיש לך סבלנות"
+    "😠...עד שאמרנו עלייך בשידוכים שיש לך סבלנות",
+    "😉...אולי אחרי שתלחצי עוד אינסוף פעמים יהיה כאן משהו חדש"
 
 
 
@@ -69,7 +70,7 @@ let congratulations = {
     11: [],
     12: [`<video src="../videos/בת שבע.mp4" style ="width: 100%;
     height: 520px;" controls="" class="congratulations" name="1"></video>`],
-    13: [`<video src="../videos/יהודה.mp4" style ="width: 100%;
+    13: [`<video src="../videos/יהודה_2.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
     14: [`<iframe src="../pdf/נעמי דריין.pdf" width="100%" height="500" style="border:none;"></iframe>`],
     15: [`<iframe src="../pdf/אפרת בצון.pdf" width="100%" height="500" style="border:none;"></iframe>`],
@@ -92,7 +93,8 @@ let congratulations = {
     height: 520px;" controls="" class="congratulations" name="1"></video>`],
     28: [`<video src="../videos/דיתי.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
-    29: [],
+    29: [`<video src="../videos/יהודה ושרה.mp4" style ="width: 100%;
+    height: 520px;"  controls="" class="congratulations" name="1"></video>`],
     30: [],
     31: [],
 

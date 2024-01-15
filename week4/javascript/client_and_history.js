@@ -1,4 +1,3 @@
-
 const app = {
     pages: [],
     show: new Event('show'),
@@ -11,7 +10,7 @@ const app = {
         document.querySelectorAll('.nav-link').forEach((link) => {
             link.addEventListener('click', app.nav);
         })
-        history.replaceState({}, 'signin', '/week4/html/onepage.html#signin');
+        history.replaceState({}, 'signin', '/');
         window.addEventListener('popstate', app.poppin);
     },
     nav: function(ev) {
