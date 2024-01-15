@@ -38,7 +38,7 @@ function Today(t) {
             display: inline-block;
             padding-bottom: 171px;
             ">יום</h1>
-            <img class="gold" src=${`../pictures/${today}_gold.png`}>
+            <img class="gold" src=${`../pictures/${today}_gold.jpg`}>
         </div>
         <h1 class=" inhtml" style="margin-top: -120px; font-size: 60px;border-bottom: 4px double black; ">!!!! החתונה</h1>
     </div>`
@@ -52,7 +52,7 @@ function Today(t) {
                 display: inline-block;
                 padding-bottom: 171px;
                 ">יום</h1>
-                <img class="gold" src=${`../pictures/${today}_gold.png`}>
+                <img class="gold" src=${`../pictures/${today}_gold.jpg`}>
             </div>
             <h1 class=" inhtml" style="margin-top: -182px ; font-size: 40px;border-bottom: 4px double black; ">  !!..החתונה !!!! ויש לך בונוס מיוחד</h1>
             <h1 class=" inhtml" style="margin-top: -32px; font-size: 60px;border-bottom: 4px double black; ">! יומיים נפתחים לך ביום אחד </h1>
