@@ -11,7 +11,7 @@ const app = {
         document.querySelectorAll('.nav-link').forEach((link) => {
             link.addEventListener('click', app.nav);
         })
-        history.replaceState({}, 'signin', '/#signin');
+        history.replaceState({}, 'signin', '/week4/html/onepage.html#signin');
         window.addEventListener('popstate', app.poppin);
     },
     nav: function(ev) {
