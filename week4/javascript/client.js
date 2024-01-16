@@ -52,7 +52,7 @@ function Today(t) {
                 display: inline-block;
                 padding-bottom: 171px;
                 ">יום</h1>
-                <br>
+                
                 <img class="gold" src=${`../pictures/${today}_gold.jpg`}>
             </div>
             <h1 class=" inhtml" style="margin-top: -115px; font-size: 40px;border-bottom: 4px double black; ">  !!..החתונה !!!! ויש לך בונוס מיוחד</h1>
