@@ -85,7 +85,8 @@ let congratulations = {
     22: [`<iframe src="../pdf/נעמה וענונו.pdf" width="100%" height="500" style="border:none;"></iframe>`],
     23: [`<video src="../videos/בת דודה4.mp4" style ="width: 100%;
     height: 520px;" controls="" class="congratulations" name="1"></video>`],
-    24: [`<iframe src="../pdf/חני-בת דודה.pdf" width="100%" height="500" style="border:none;"></iframe>`],
+    24: [`<iframe src="../pdf/חני-בת דודה.pdf" width="100%" height="500" style="border:none;"></iframe><br><video src="../videos/מרים.mp4" style ="width: 100%;
+    height: 520px;" controls="" class="congratulations" name="1"></video>`],
     25: [`<h1></h1>`],
     26: [`<video src="../videos/שרה.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
