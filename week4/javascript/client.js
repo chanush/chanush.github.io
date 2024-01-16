@@ -152,7 +152,7 @@ function date_has_not_passed(today,pressed_date){
 }
 
 function span(num) {
-    let today = new Date('2024-2-14')
+    let today = new Date()
     let date = new Date(num)
     let wedding_day = new Date('2024-2-13')
 
