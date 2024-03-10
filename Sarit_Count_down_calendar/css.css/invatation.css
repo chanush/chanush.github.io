@@ -1,0 +1,103 @@
+.invatation {
+    background-image: url(../pictures/bride4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+    background-position-y: -192px;
+}
+
+.input_invatation {
+    /* animation-name: my-animation; */
+    /* animation: my-animation 4.5s steps(200); */
+    /* animation-direction: alternate; */
+    /* animation-iteration-count: infinite; */
+    /* background-image: url(../pictures/bride4.jpg); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../pictures/bride4.jpg);
+    width: 307px;
+    background-size: 445px;
+    background-position: center;
+    height: 302px;
+    box-shadow: gray;
+    box-shadow: -3px 3px 5px 0px gray;
+    border: 0;
+    background-repeat: no-repeat;
+    border-radius: 146px;
+    color: #71556c;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 267px;
+    margin-left: 485px;
+    font-variant-position: 4px;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+    cursor: text;
+}
+
+input:focus::placeholder {
+    text-align: center;
+    color: transparent;
+}
+
+.btn_invatation {
+    animation-name: my-animation;
+    animation: my-animation 4.5s steps(200);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    background-image: url(../pictures/bride4.jpg);
+    width: 307px;
+    background-size: 445px;
+    background-position: center;
+    height: 302px;
+    box-shadow: gray;
+    box-shadow: -3px 3px 5px 0px gray;
+    border: 0;
+    background-repeat: no-repeat;
+    border-radius: 146px;
+    color: #a3829d;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 267px;
+    margin-left: 485px;
+}
+
+#comeOn {
+    /* display: none; */
+}
+
+#password {
+    /* display: none; */
+}
+
+.btn_invatation:hover {
+    /* background-size: 600px; */
+    /* height: 303px; */
+    /* width: 308px; */
+    box-shadow: -5px 9px 26px 7px rgb(82, 82, 82);
+    /* font-size: 26px; */
+    /* transition: background-size 1s ease; */
+    /* transition: 440px 1s ease-out; */
+    /* transform-style: calc(1); */
+    /* transition: transform 0.1s all; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../pictures/bride4.jpg);
+}
+
+.btn_invatation:active {
+    background-image: linear-gradient(rgba(61, 61, 61, 0.5), rgba(44, 42, 42, 0.5)), url(../pictures/bride4.jpg);
+}
+
+@keyframes my-animation {
+    from {
+        background-size: 435px;
+        font-size: 22px;
+        /* transition: transform 0.1s all; */
+    }
+    to {
+        font-size: 25px;
+        background-size: 535px;
+        /* transition: transform 0.1s all; */
+        /* animation-timing-function: calc(12%); */
+    }
+}

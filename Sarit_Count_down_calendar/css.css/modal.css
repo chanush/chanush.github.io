@@ -1,0 +1,136 @@
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.datemodal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background-image: url('../pictures/Marriage.jpg'); */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    /* background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; */
+    border-radius: 21px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #888;
+    width: 85%;
+    margin-top: -95px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../pictures/Marriage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* 
+.modal-content::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(248 241 241 / 49%);
+    opacity: 0.6;
+} */
+
+
+/* The Close Button */
+
+.close,
+.closeinfo {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closedate {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-right: -3px;
+}
+
+.closeinfo:hover,
+.closeinfo:focus,
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closedate:hover,
+.closedate:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gold {
+    width: 300px;
+    /* display: inline-block; */
+}
+
+.inhtml {
+    font-size: 40px;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+.btn {
+    width: 115px;
+    border-radius: 90px;
+}
+
+.btn:hover {
+    width: 116px;
+}
