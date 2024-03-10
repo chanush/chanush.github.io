@@ -14,11 +14,12 @@
     <link rel="pdf" href="../pdf/choclate.pdf">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <!-- <link rel="stylesheet" href="../css.css/sign_out_page.css">
+    <link rel="stylesheet" href="../css.css/user_page.css"> -->
     <title>Document</title>
 </head>
 
-<body style="background-image: url(./pictures/bride7.jpg);">
+<body style="background-image: url(../pictures/bride7.jpg);">
     <div class="container">
         <div class="page" id="signin">
 
@@ -42,8 +43,8 @@
 
                         <div class="weeks">
                             <div class="first">
-                                <a class="last-month" id="31">ד</a>
-                                <a class="last-month" id="30">ה</a>
+                                <a class="last-month" id="31" >ד</a>
+                                <a class="span" id="30" onclick="span('2024-1-15')">ה</a>
                                 <a class="span" id="29" onclick="span('2024-1-16')">ו</a>
                                 <a class="span" id="28" onclick="span('2024-1-17')">ז</a>
                                 <a class="span" id="27" onclick="span('2024-1-18')">ח</a>
@@ -96,7 +97,7 @@
                                 <a class="last-month " aria-disabled="true">ו</a>
                                 <a class="last-month ">ז</a>
                                 <a class="last-month ">ח</a>
-                               
+                                <!-- <button></button> -->
                             </div>
                         </div>
                     </div>
@@ -104,7 +105,23 @@
             </div>
         </div>
     </div>
-  
+    <!-- <input href="#" type="button" data-target="lognin" class="nav-link" id="log_in_btn" value="log in">
+        <h1>sign in:</h1>
+        <form class="divs">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="susername" name="username">
+            </div>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="passs" name="password" minlength="8" required>
+            </div>
+            <label for="email">email:</label>
+            <input type="email" id="gemail" pattern=".+@gmail\.com" size="30" required>
+            <input type="submit"  href="#"data-target="list_page" id="submit_sign_in" value="Sign in">
+
+        </form> -->
 
     <div class="container">
 
@@ -114,8 +131,17 @@
                     <br>
                     <br>
 
+                    <!-- <button class="prev" onclick="congratulations_onclick()"><</button> -->
                     <div id="pdf_video">
+                        <!-- <img src="../pdf/אביגיל.png" class="relative" width="600" height="400" name="0"> -->
                     </div>
+                    <!-- <button class="next" onclick="congratulations_onclick()">></button> -->
+
+                    <!-- <video src="../pdf/רינה.pdf" controls="" class="" name="1"></video> -->
+
+                    <!-- <iframe src="../pdf/לחברה הכי הכי שלי!!.pdf" width="100%" height="500" frameborder="0"></iframe> -->
+                    <!-- <video src="../videos/Document - Google Chrome 2024-01-07 19-42-39.mp4" controls="" style="width: 70%;
+                    height: 90%;"></video> -->
         </div>
     </div>
     <div class="page active" id="list_page">
@@ -124,7 +150,7 @@
         <div class="lst_pagediv">
             <h1 style="font-size: 45px;">(:לוח ספירת הגומר-בואי לספור</h1>
             <h3 style="font-size: 30px;">!כולנו יחד-מחכים וסופרים איתך</h3>
-            <p style="font-size: 13px;">חובה לקרוא את ההוראות לפני כן</p>
+            <p style="font-size: 13px;">(חובה לקרוא את ההוראות לפני כן(פינה ימנית עליונה</p>
         </div>
 
         <input type="button" class="letsCount" value="!בואי לספור" onclick="sign_out()">

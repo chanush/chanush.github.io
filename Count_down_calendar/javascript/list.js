@@ -52,7 +52,7 @@ let congratulations = {
     0: [
         `<iframe src="../pdf/מהחתן.pdf" width="90%" height="500" style="border:none;"></iframe>`
     ],
-    1: [],
+    1: [`<iframe src="../pdf/אבא.pdf" width="90%" height="500" style="border:none;"></iframe><br><iframe src="../pdf/אמא.pdf" width="90%" height="500" style="border:none;"></iframe> `],
     2: [`<iframe src="../pdf/אביגיל.pdf" width="100%" height="500" style="border:none;"></iframe>`],
     3: [`<iframe src="../pdf/חני-גיסה.pdf" width="100%" height="500" style="border:none;"></iframe>`],
     4: [],
@@ -85,7 +85,8 @@ let congratulations = {
     22: [`<iframe src="../pdf/נעמה וענונו.pdf" width="100%" height="500" style="border:none;"></iframe>`],
     23: [`<video src="../videos/בת דודה4.mp4" style ="width: 100%;
     height: 520px;" controls="" class="congratulations" name="1"></video>`],
-    24: [`<iframe src="../pdf/חני-בת דודה.pdf" width="100%" height="500" style="border:none;"></iframe>`],
+    24: [`<iframe src="../pdf/חני-בת דודה.pdf" width="100%" height="500" style="border:none;"></iframe><br><video src="../videos/מרים.mp4" style ="width: 100%;
+    height: 520px;" controls="" class="congratulations" name="1"></video>`],
     25: [`<h1></h1>`],
     26: [`<video src="../videos/שרה.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
@@ -93,9 +94,10 @@ let congratulations = {
     height: 520px;" controls="" class="congratulations" name="1"></video>`],
     28: [`<video src="../videos/דיתי.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
-    29: [`<video src="../videos/יהודה ושרה.mp4" style ="width: 100%;
+    29: [`<video src="../videos/נעמי.mp4" style ="width: 100%;
     height: 520px;"  controls="" class="congratulations" name="1"></video>`],
-    30: [],
+    30: [`<video src="../videos/יהודה ושרה.mp4" style ="width: 100%;
+    height: 520px;"  controls="" class="congratulations" name="1"></video>`],
     31: [],
 
 
