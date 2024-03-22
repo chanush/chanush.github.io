@@ -1,6 +1,6 @@
 init();
 // import PASS from '../javascript/pass'
-window.PASS = "Debora&Israel_CountDown"
+window.PASS = "Sarit_CountDown"
 
 function init() {
     // document.getElementById("password").style.display = "none";
