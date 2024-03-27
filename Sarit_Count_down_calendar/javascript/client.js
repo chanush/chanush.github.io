@@ -1,8 +1,8 @@
 init();
-
+const WEDDING_DAY = new Date('2024-4-9')
 function init() {
     let d = new Date()
-    let da = new Date('2024-2-14')
+    let da = WEDDING_DAY
     let today = diference_between_two_dates(d, da)
     if (today !== 0) {
         document.getElementById(today).style.backgroundColor = "rgba(8, 245, 8, 0.826)";
@@ -26,7 +26,7 @@ function diference_between_two_dates(date1, date2) {
 function Today(t) {
 
     let d = new Date(t)
-    let da = new Date('2024-2-14')
+    let da = WEDDING_DAY
     let today = diference_between_two_dates(d, da)
     console.log(today)
     let element = document.getElementById("mydate");
@@ -122,7 +122,7 @@ function infoOnClick(){
 function date_has_not_passed(today,pressed_date){
     let element = document.getElementById("mydive");
     let inethtml;
-    let wedding_day = new Date('2024-2-14')
+    let wedding_day = WEDDING_DAY
 
     if(diference_between_two_dates(pressed_date,wedding_day)<=0){
         inethtml = `
@@ -134,7 +134,7 @@ function date_has_not_passed(today,pressed_date){
     if(diference_between_two_dates(today,pressed_date)==1){
         inethtml = `
         <div>
-        <h1>${not_the_time_yet[2].replace('()',diference_between_two_dates(today,new Date('2024-2-14')))}</h1>    
+        <h1>${not_the_time_yet[2].replace('()', diference_between_two_dates(today, WEDDING_DAY))}</h1>    
         </div>`
     }
    else{
@@ -154,7 +154,7 @@ function date_has_not_passed(today,pressed_date){
 function span(num) {
     let today = new Date()
     let date = new Date(num)
-    let wedding_day = new Date('2024-2-13')
+    let wedding_day = WEDDING_DAY
 
     if (date > today && today < wedding_day) { //date has not passed yet
         date_has_not_passed(today,date)
